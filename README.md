@@ -8,8 +8,8 @@ Debemos poner los objetivos pilas muchachos
 
 
 Angel 
-=======
->>>>>>> origin/master
+
+
 
 #Brackets Oscar Loor
 asdasadsadasdasdasdasdasda
