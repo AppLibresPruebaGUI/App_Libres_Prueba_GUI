@@ -7,3 +7,11 @@ Este es un proyecto libre en el cual se tomaran datos que se encuentran alojados
 Generar una interfaz de usuario para realizar las pruebas a partir de un archivo .json
 
 
+##Objetivos especificos
+
+Una interfaz facil de entender para el usuario
+
+
+
+
+
