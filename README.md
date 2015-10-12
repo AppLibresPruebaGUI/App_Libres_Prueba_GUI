@@ -12,6 +12,12 @@ Generar una interfaz de usuario para realizar las pruebas a partir de un archivo
 Una interfaz facil de entender para el usuario
 
 
+#wiki
+
+#Pagina 
+
+
+
 
 
 
