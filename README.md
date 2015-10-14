@@ -4,7 +4,7 @@ Este es un proyecto libre en el cual se tomaran datos que se encuentran alojados
 
 ##Objetivo Principal
 
-Desarrollar un modulo correspondiente a un aula virtual que permita la presentación de pruebas y  exámenes virtuales a través de una interfaz gráfica de usuario los cuales serán elaborados a partir de la recuperación de un banco de preguntas.   
+Desarrollar un modulo correspondiente a un aula virtual que permita la presentación de pruebas y  exámenes virtuales a través de una interfaz gráfica de usuario. Estas pruebas y exámenes  serán elaborados a partir de la recuperación de un banco de preguntas que se encuentra almacenados previamente en el sistema.   
 
 
 ##Objetivos especificos
