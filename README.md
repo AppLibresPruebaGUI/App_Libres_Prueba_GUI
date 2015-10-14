@@ -22,7 +22,7 @@ Desarrollar un modulo correspondiente a un aula virtual que permita la presentac
 
 #wiki
 
-https://github.com/AppLibresPruebaGUI/App_Libres_Prueba_GUI/wiki
+https://github.com/AppLibresPruebaGUI/App_Libres_Prueba_GUI/wiki/Pruebas-Gui
 
 #Pagina 
 
