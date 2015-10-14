@@ -22,7 +22,7 @@ Desarrollar un modulo correspondiente a un aula virtual que permita la presentac
 
 El siguiente link proporciona la infromacion basica en la cual se explica lo que es Pruebas-Gui y que parte del proyecto general constituye
 
-https://github.com/AppLibresPruebaGUI/App_Libres_Prueba_GUI/wiki/Pruebas-Gui
+https://github.com/AppLibresPruebaGUI/App_Libres_Prueba_GUI/wiki/Wiki-Pruebas-Gui
 
 ***
 #Pagina 
