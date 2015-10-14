@@ -25,7 +25,7 @@ El siguiente link proporciona la infromacion basica en la cual se explica lo que
 https://github.com/AppLibresPruebaGUI/App_Libres_Prueba_GUI/wiki/Wiki-Pruebas-Gui
 
 ***
-#Pagina 
+#Página 
 
 Se muestra la pagina del Pruebas-Gui.
 
