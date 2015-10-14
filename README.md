@@ -4,7 +4,7 @@ Este es un proyecto libre en el cual se tomaran datos que se encuentran alojados
 
 ##Objetivo Principal
 
-Generar una interfaz de usuario para realizar las pruebas a partir de un archivo .json
+Desarrollar un modulo correspondiente a un aula virtual que permita la presentación de pruebas y  exámenes virtuales a través de una interfaz gráfica de usuario los cuales serán elaborados a partir de la recuperación de un banco de preguntas.   
 
 
 ##Objetivos especificos
