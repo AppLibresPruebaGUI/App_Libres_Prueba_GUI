@@ -10,6 +10,8 @@ Desarrollar un modulo correspondiente a un aula virtual que permita la presentac
 ##Objetivos especificos
 
 Una interfaz facil de entender para el usuario
+Realizar una  interfaz de usuario amigable para que pueda realizar las pruebas y exámenes de una forma más fácil.
+
 
 
 #wiki
