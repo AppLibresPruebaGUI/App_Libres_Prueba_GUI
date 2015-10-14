@@ -9,13 +9,13 @@ Desarrollar un modulo correspondiente a un aula virtual que permita la presentac
 
 ##Objetivos especificos
 
-Construir una interfaz amigable para el usuario para que puede realizar las pruebas y examenes de una forma más fácil.
+- Construir una interfaz amigable para el usuario para que se pueda realizar las pruebas y examenes de una forma más sencilla.
 
-Procesar la información de manera correcta para proporcionar el resultado correcto de cada prueba realizada por el usuario.
+- Procesar la información de manera correcta para proporcionar el resultado correspondiente a cada prueba realizada por el usuario.
 
-Representar todo el banco de preguntas como lo específica el usuario.
+- Representar todo el banco de preguntas como lo especifique el usuario.
 
-Enviar los resultados obtenidos vía e-mail.
+- Enviar los resultados obtenidos vía e-mail.
 
 
 
