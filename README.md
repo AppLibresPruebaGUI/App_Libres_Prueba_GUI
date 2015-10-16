@@ -1,3 +1,4 @@
+![](https://github.com/AppLibresPruebaGUI/App_Libres_Prueba_GUI/blob/master/img/logoHorizontal.png?raw=true)
 # App_Libres_Prueba_GUI
 Es un módulo del proyecto: https://github.com/AppLibres2015b/App_Libres_2015_b, el cual esta orientado a tomar pruebas virtuales a través de una interfaz gráfica.
 
