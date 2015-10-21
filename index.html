@@ -4,13 +4,25 @@
 
 <head>
     <title>Angel Molina</title>
-        <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    
+    <link rel="stylesheet" href="javascript/animate.css">
+    
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
-</head>
+    <script src="https://code.angularjs.org/1.4.7/angular-animate.js"></script>
+    <script src="javascript/App.js"></script>
+    <script src="javascript/wow.js"></script>
+    
+    
+     <script>
+              new WOW().init();
+              </script>
+    </head>
 
-<body >
-    <div ng-app>
-    <h1>Ejemplo con angular</h1>
+
+<body ng-app ='app' >
+    <div class=" wow tada" >
+    <h1 class=" wow tada">Ejemplo con angular</h1>
     <label>Name:</label>
     
     <input type="text" ng-model="yourName" placeholder="Ingresar el nombre">
@@ -47,6 +59,8 @@
     <h6 class="centrar">Titulo 6</h6>
     <!--Unordered list-->
     <h2>Mis materias</h2>
+    
+    <div class="wow tada" >
     <ul>
         <!--list Item-->
         <li>AAL</li>
@@ -65,6 +79,7 @@
         <li>AAp</li>
 
     </ol>
+        </div>
     <h3>Tabla de Calificaciones</h3>
     <table id="tabla1">
         <tr>
@@ -83,6 +98,7 @@
             <th>16</th>
         </tr>
     </table>
+
 </body>
 
 </html>
