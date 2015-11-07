@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Angel Molina</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+    
+    <link rel="stylesheet" href="estilos/animate.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.4.7/angular-animate.js"></script>
+    <script src="javascript/App.js"></script>
+    <script src="javascript/wow.js"></script>
+    <script src="javascript/angular-ui-router.js"></script>
+    
+    
+     <script>
+              new WOW().init();
+              </script>
+    </head>
+
+
+<body ng-app ='app' >
+    <h1>UI Router angular</h1>
+    
+    <div ui-view> </div>
+    <!-- We'll also add some navigation: -->
+    <a ui-sref="ruta1">Ir Ruta 1</a>
+    <a ui-sref="ruta">Ir Ruta 2</a>
+    
+    <p ui-view></p>
+    
+    <div class=" wow tada" >
+    <h1 class=" wow tada">Ejemplo con angular</h1>
+    <label>Name:</label>
+    
+    <input type="text" ng-model="yourName" placeholder="Ingresar el nombre">
+    <hr> <h1> Hola {{yourName}}</h1>
+    
+    
+    </div>
+    
+   <h1 style="
+    color: aqua;
+    text-align: 
+    -webkit-center;
+">Mi primer pagina web</h1>
+    <img src="http://www.tribalshapes.com/img/tattoos/eagle-1.gif">
+    <a href="http://www.twitch.tv/admiralbulldog"> <img src="http://www.todoenunclic.net/wp-content/uploads/2015/09/enlaces-300x150.png">
+    </a>
+    <a target="_blank"
+       href="http://www.twitch.tv/admiralbulldog">
+        <h2>Bulldog</h2>
+
+    </a>
+    
+    <p>Lista de materias de sexto semestre
+    </p>
+    <pre>
+        Lista  de materias 
+        
+        de Sexto            Semestre
+        </pre>
+    <h2 class="centrar">Titulo 2</h2>
+    <h3 class="centrar">Titulo 3</h3>
+    <h4 class="centrar">Titulo 4</h4>
+    <h5 class="centrar">Titulo 5</h5>
+    <h6 class="centrar">Titulo 6</h6>
+    <!--Unordered list-->
+    <h2>Mis materias</h2>
+    
+    <div class="wow tada" >
+    <ul>
+        <!--list Item-->
+        <li>AAL</li>
+        <li>AAp</li>
+        <li>Inteligencia de negocios</li>
+        <li>Diseño de Procesos Organizacionaless</li>
+        <li>AAp</li>
+
+    </ul>
+    <!--Ordered List-->
+    <ol>
+        <li>AAL</li>
+        <li>AAp</li>
+        <li>Inteligencia de negocios</li>
+        <li>Diseño de Procesos Organizacionaless</li>
+        <li>AAp</li>
+
+    </ol>
+        </div>
+    <h3>Tabla de Calificaciones</h3>
+    <table id="tabla1">
+        <tr>
+            <th>AAP
+            </th>
+            <th>AAL
+            </th>
+            <th>BI
+            </th>
+        </tr>
+        <tr>
+            <th>14</th>
+            <br>
+            <th> 15</th>
+            </br>
+            <th>16</th>
+        </tr>
+    </table>
+
+</body>
+
+</html>
