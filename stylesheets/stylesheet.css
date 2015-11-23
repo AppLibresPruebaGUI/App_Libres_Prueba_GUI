@@ -10,8 +10,10 @@ body {
   color: #606c71; }
 
 a {
-  color: #1e6bb8;
-  text-decoration: none; }
+    color: #555555;
+    text-decoration: none;
+    font-weight: bold;
+}
   a:hover {
     text-decoration: underline; }
 
@@ -54,10 +56,11 @@ a {
       margin-left: 0; } }
 
 .page-header {
-  color: #fff;
-  text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+    color: #FFF;
+    text-align: center;
+    background-color: #949599;
+    background-image: linear-gradient(120deg, rgb(85, 85, 85), #949599);
+}
 
 @media screen and (min-width: 64em) {
   .page-header {
@@ -109,10 +112,11 @@ a {
 .main-content img {
   max-width: 100%; }
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  font-weight: normal;
-  color: #159957; }
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: normal;
+    color: #CD2530;
+}
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {
@@ -229,8 +233,6 @@ a {
   display: block;
   font-weight: bold; }
 
-.site-footer-credits {
-  color: #819198; }
 
 @media screen and (min-width: 64em) {
   .site-footer {
@@ -243,3 +245,109 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+.estadoActual {
+    width: 100%;
+}
+
+.estadoActual div {
+    float: left;
+    padding: 0px 60px;
+}
+
+.colaboradores {
+    width: 100%;
+}
+
+.colaboradores div {
+    float: left;
+    padding: 0px 60px;
+}
+
+.colaboradores {
+    width: 100%;
+    float: left;
+}
+
+.estadoActual {
+    width: 100%;
+    float: left;
+    background-image: url("../img/fondoTiempo.jpg");
+    min-height: 300px;
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding-top: 74px;
+}
+
+#mc_embed_signup_scroll {
+    padding: 0px;
+}
+
+#mce-MMERGE4 {
+    width: 100%;
+}
+
+input {
+    width: 100%;
+}
+
+.mc-field-group {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+#mc_embed_signup {
+    padding: 0px !important;
+}
+
+.indicates-required {
+    padding: 0px !important;
+    width: 100%;
+}
+
+.mc-field-group {
+    padding: 0px !important;
+    margin: 0px !important;
+    width: 100%;
+}
+
+
+
+.clear {
+    width: 100%;
+    padding: 0px !important;
+    margin: 10px 0px;
+}
+
+#mc_embed_signup {
+    width: 100%;
+}
+
+#mc_embed_signup_scroll {
+    width: 100%;
+}
+
+.colaboradores {
+    padding: 100px 0px;
+}
+
+.site-footer {
+    float: left;
+    width: 100%;
+    text-align: center;
+    background-color: #555;
+    color: #FFF !important;
+    padding: 30px;
+}
+
+.site-footer a {
+    color: #000;
+}
+
+.main-content {
+    padding: 80px 0px;
+}
