@@ -6,14 +6,14 @@ Utilizaremos tecnologías como HTML, CSS y Javascript
 El cual generara una interfaz dinamica a partir de datos de entrada, en este caso utilizaremos lectura de archivos JSON
 
 ##Objetivo Principal
-Leeremos un archivo JSON previamente construido, lo interpretaremos y generaremos una interfaz gráfica, de ser necesario agregaremos nuevos campos y para finalizar generaremos otro archivo JSON
+Leeremos datos de una base de datos previamente construida, lo interpretaremos y generaremos una interfaz gráfica, de ser necesario agregaremos nuevos campos y para finalizar agregaremos esta información a la base de datos
 ***
 ##Objetivos especificos
-
-- Leeremos el archivo JSON generado por el modulo del grupo anterior.
-- Interpretaremos este archivo y generaremos una interfaz gráfica
-- Agregaremos nuevos campos los cuales permitiran al estudiante ingresar sus datos personales y otro tipo de información
-- Generaremos otro archivo JSON, para que el grupo correspondiente al siguiente modulo lo pueda utilizar
+ 
+Leeremos los datos de una base de datos generada por el modulo del grupo anterior.
+Interpretaremos este archivo y generaremos una interfaz gráfica
+Agregaremos nuevos campos los cuales permitiran al estudiante ingresar sus datos personales y otro tipo de información
+Agregaremos información a la base de datos para que el grupo correspondiente al siguiente modulo lo pueda utilizar
 
 ***
 #wiki
