@@ -10,13 +10,13 @@ Leeremos datos de una base de datos previamente construida, lo interpretaremos y
 ***
 ##Objetivos especificos
  
-Leeremos los datos de una base de datos generada por el modulo del grupo anterior.
-***
-Interpretaremos este archivo y generaremos una interfaz gráfica
-***
-Agregaremos nuevos campos los cuales permitiran al estudiante ingresar sus datos personales y otro tipo de información
-***
-Agregaremos información a la base de datos para que el grupo correspondiente al siguiente modulo lo pueda utilizar
+1. Leeremos los datos de una base de datos generada por el modulo del grupo anterior.
+
+2. Interpretaremos este archivo y generaremos una interfaz gráfica
+
+3. Agregaremos nuevos campos los cuales permitiran al estudiante ingresar sus datos personales y otro tipo de información
+
+4. Agregaremos información a la base de datos para que el grupo correspondiente al siguiente modulo lo pueda utilizar
 
 ***
 #wiki
