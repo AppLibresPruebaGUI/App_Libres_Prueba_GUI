@@ -35,11 +35,11 @@ Se muestra la pagina del Pruebas-Gui.
 http://applibrespruebagui.github.io/App_Libres_Prueba_GUI/
 
 #Colaboradores
-* [Oscar Loor]( https://github.com/orgs/AppLibresPruebaGUI/people/OscarLoor)
-* [Carlos Sampedro](https://github.com/orgs/AppLibresPruebaGUI/people/CarlosEd91)
-* [Angel Molina]( https://github.com/orgs/AppLibresPruebaGUI/people/f3ar161)
-* [Stalin Guamán](https://github.com/orgs/AppLibresPruebaGUI/people/StanGumn)
-* [Fredy Bazante]( https://github.com/orgs/AppLibresPruebaGUI/people/FreddyBazante)
-* [Juan Castillo]( https://github.com/orgs/AppLibresPruebaGUI/people/juanfcreyes)
+* [Oscar Loor]( https://github.com/OscarLoor)
+* [Carlos Sampedro](https://github.com/CarlosEd91)
+* [Angel Molina]( https://github.com/f3ar161)
+* [Stalin Guamán](https://github.com/StanGumn)
+* [Fredy Bazante]( https://github.com/FreddyBazante)
+* [Juan Castillo]( https://github.com/juanfcreyes)
 
 
