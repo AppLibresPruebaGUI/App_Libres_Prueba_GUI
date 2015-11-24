@@ -18,7 +18,7 @@ Leeremos un archivo JSON previamente construido, lo interpretaremos y generaremo
 ***
 #wiki
 
-![](http://s17.postimg.org/a0zto5nob/12167446_10203958480917440_419026404_n.jpg)
+![](https://github.com/AppLibresPruebaGUI/App_Libres_Prueba_GUI/blob/master/logos/logoHorizontal.png)
 
 El siguiente link proporciona la informacion basica en la cual se explica lo que es Pruebas-Gui y que parte del proyecto general constituye
 
