@@ -1,6 +1,5 @@
 var aplicacion = angular.module('app', ['ngAnimate','ui.router']);
 
-
 //config es un metodo que acepta una funcion con dos parametros
 aplicacion.config(function($stateProvider, $urlRouterProvider) {
   //
@@ -16,7 +15,5 @@ aplicacion.config(function($stateProvider, $urlRouterProvider) {
     .state('ruta2', {
       url: "/estamosenlaRuta2",
       templateUrl: "rutas/ruta2.html"
-      
-    
     });
 });
