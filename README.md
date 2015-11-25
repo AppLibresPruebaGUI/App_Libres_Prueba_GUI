@@ -42,5 +42,13 @@ http://applibrespruebagui.github.io/App_Libres_Prueba_GUI/
 * [Fredy Bazante]( https://github.com/FreddyBazante)
 * [Juan Castillo]( https://github.com/juanfcreyes)
 
-###Estado del proyecto
+###Acerca del proyecto
 El proyecto se encuentra actualmente en desarrollo.
+
+Fechas en los que estará activo el proyecto:
+
+* Inicio: 28-09-2015
+
+* Hasta: 12-02-2016 (Podría Variar)
+
+***
