@@ -35,12 +35,12 @@ Se muestra la pagina del Pruebas-Gui.
 http://applibrespruebagui.github.io/App_Libres_Prueba_GUI/
 
 #Colaboradores
-* [Oscar Loor]( https://github.com/OscarLoor)
-* [Carlos Sampedro](https://github.com/CarlosEd91)
-* [Angel Molina]( https://github.com/f3ar161)
-* [Stalin Guamán](https://github.com/StanGumn)
 * [Fredy Bazante]( https://github.com/FreddyBazante)
 * [Juan Castillo]( https://github.com/juanfcreyes)
+* [Stalin Guamán](https://github.com/StanGumn)
+* [Oscar Loor]( https://github.com/OscarLoor)
+* [Angel Molina]( https://github.com/f3ar161)
+* [Carlos Sampedro](https://github.com/CarlosEd91)
 
 ###Acerca del proyecto
 El proyecto se encuentra actualmente en desarrollo.
