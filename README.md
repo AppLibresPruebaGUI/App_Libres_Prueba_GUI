@@ -42,4 +42,5 @@ http://applibrespruebagui.github.io/App_Libres_Prueba_GUI/
 * [Fredy Bazante]( https://github.com/FreddyBazante)
 * [Juan Castillo]( https://github.com/juanfcreyes)
 
-
+###Estado del proyecto
+El proyecto se encuentra actualmente en desarrollo.
