@@ -1,0 +1,65 @@
+<div class="container">
+    <div class="row">
+        <div class="alert alert-info"><i class="fa fa-file"></i> Diseño de la Prueba</div>
+
+        <div class="col-md-12">
+            <div class="form-group">
+
+                <label for="pregunta"><i class="fa fa-text-width"></i> Pregunta:*</label>
+                <input ng-model="pregunta" type="text" class="form-control" id="pregunta" placeholder="Ingrese la pregunta" name="name" required>
+                <span ng-show="!exampleForm.$pristine && exampleForm.name.$error.required"></span>
+            </div>
+
+            <div class="form-group">
+                <h2><i class="fa fa-file-text-o"></i> Tipo de pregunta</h2>
+                <label for="preguntaVoF"><i class="fa fa-list"></i> Pregunta de Selección:</label>
+                <br>
+                <select ng-model="opcionMultiple">
+                    <option value="pregunta1">Respuesta 1</option>
+                    <option value="pregunta2">Respuesta 2</option>
+                    <option value="pregunta3">Respuesta 3</option>
+                    <option value="pregunta3">Respuesta n</option>
+                </select>
+                <input ng-show="opcionMultiple='pregunta2'" type="text">
+            </div>
+            <p></p>
+            <label for="preguntaVoF"><i class="fa fa-check-square"></i> Pregunta de Selección Múltiple:</label>
+            <br>
+            <label>Pregunta 1:
+                <input type="checkbox" ng-model="checkboxModel.value1">
+            </label>
+            <br/>
+            <label>Pregunta 2:
+                <input type="checkbox" ng-model="checkboxModel.value2" ng-true-value="'YES'" ng-false-value="'NO'">
+            </label>
+            <br/>
+            <label>Pregunta 3:
+                <input type="checkbox" ng-model="checkboxModel.value2" ng-true-value="'YES'" ng-false-value="'NO'">
+            </label>
+            <br/>
+            <label>Pregunta n:
+                <input type="checkbox" ng-model="checkboxModel.value2" ng-true-value="'YES'" ng-false-value="'NO'">
+            </label>
+            <br/>
+            <label for="preguntaVoF"><i class="fa fa-check-circle"></i> Pregunta de Verdadero o Falso:</label>
+            <br>
+            <label>
+                <input type="radio" ng-model="color.name" value="red"> Pregunta 1
+            </label>
+            <br/>
+            <label>
+                <input type="radio" ng-model="color.name" ng-value="specialValue"> Pregunta 2
+            </label>
+            <br/>
+            <label>
+                <input type="radio" ng-model="color.name" value="blue"> Pregunta 3
+            </label>
+            <br/>
+            <br/>
+            <br/>
+            <a class="btn btn-success pull-center" href="#/retroalimentacion">Finalizar</a>
+        </div>
+
+
+    </div>
+</div>
