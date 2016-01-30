@@ -3,23 +3,13 @@
         <div class="alert alert-success"><i class="fa fa-graduation-cap"></i>Pruebas</div>
         <h1>Seleccion de Pruebas</h1>
 
-        <div class="col-md-12">
-            <h2><i ></i>Lista de Pruebas</h2>
-            <a href="#/prueba">Prueba 1</a>
-            <br/>
-            <br/>
-            <a href="#/prueba">Prueba 2</a>
-            <br/>
-            <br/>
-            <a href="#/prueba">Prueba 3</a>
-            <br/>
-            <br/>
-            <a href="#/prueba">Prueba 4</a>
-            <br/>
-            <br/>
-            <a href="#/prueba">Prueba 5</a>
-            <br/>
-            <br/>
+        <div ng-repeat="prueba in pruebas">
+            <div class="col-md-12">
+                <h2><i ></i>Lista de Pruebas</h2>
+                <a href="#/prueba">{{prueba.nombre}}</a>
+                <br/>
+                <br/>
+            </div>
         </div>
     </div>
 </div>
