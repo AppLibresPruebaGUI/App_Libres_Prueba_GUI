@@ -1,7 +1,7 @@
 <div class="container">
-    <div class="row">
+    <div class="row" ng-model="prueba">
         <div class="alert alert-info"><i class="fa fa-file"></i> Diseño de la Prueba</div>
-
+        <!--
         <div class="col-md-12">
             <div class="form-group">
 
@@ -23,6 +23,7 @@
                 <input ng-show="opcionMultiple='pregunta2'" type="text">
             </div>
             <p></p>
+
             <label for="preguntaVoF"><i class="fa fa-check-square"></i> Pregunta de Selección Múltiple:</label>
             <br>
             <label>Pregunta 1:
@@ -41,25 +42,21 @@
                 <input type="checkbox" ng-model="checkboxModel.value2" ng-true-value="'YES'" ng-false-value="'NO'">
             </label>
             <br/>
-            <label for="preguntaVoF"><i class="fa fa-check-circle"></i> Pregunta de Verdadero o Falso:</label>
+-->
+        <div class="container">
+
+            <label for="preguntaVoF"><i class="fa fa-check-circle"></i> Pregunta de Opción Multiple:</label>
             <br>
-            <label>
-                <input type="radio" ng-model="color.name" value="red"> Pregunta 1
-            </label>
-            <br/>
-            <label>
-                <input type="radio" ng-model="color.name" ng-value="specialValue"> Pregunta 2
-            </label>
-            <br/>
-            <label>
-                <input type="radio" ng-model="color.name" value="blue"> Pregunta 3
-            </label>
-            <br/>
-            <br/>
+            <div ng-repeat="pregunta in prueba.preguntasColeccion">
+                <label>
+                    <input type="radio" ng-model="color.name" value="red"> Pregunta 1
+                </label>
+            </div>
             <br/>
             <a class="btn btn-success pull-center" href="#/retroalimentacion">Finalizar</a>
         </div>
-
-
     </div>
+
+
+</div>
 </div>

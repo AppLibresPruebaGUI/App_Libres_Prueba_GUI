@@ -23,7 +23,7 @@ app.config(function($stateProvider,$urlRouterProvider){
     }).state("registro",{
         url: "/registro",
         templateUrl: "vistas/registro.html",
-        controller: 'PruebaController'
+        controller: 'RegistroController'
     })
     
 
