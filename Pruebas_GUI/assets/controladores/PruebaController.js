@@ -37,7 +37,7 @@ app.controller('PruebaController', ['$scope', '$http', '$stateParams', '$locatio
                 calificacion: calificacion,
                 tiempoTomado: new Date().getMinutes() - minInicio,
                 fechaTomo: new Date(),
-                idPruebaTomadaUsuario: 1,//Verificar si esto no hace que se guarde siempre con el ID 1
+                idPruebaTomadaUsuario: parametrosRetroalimentacionFactory.obtenerIDUsuario(),//Verificar si esto no hace que se guarde siempre con el ID 1
                 idPruebaTomadaPruebas: idPrueba
             }
         }).then(function correcto(respuesta) {

@@ -13,7 +13,7 @@ module.exports = {
     nombre: {
       type: 'string'
     },
-    horaInicio: {
+   horaInicio: {
       type: 'datetime'
     },
     horaFin: {
