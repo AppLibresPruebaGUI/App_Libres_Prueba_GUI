@@ -17,7 +17,7 @@ app.config(function($stateProvider,$urlRouterProvider){
         templateUrl: "vistas/prueba.html",
         controller: 'PruebaController'
     }).state("retroalimentacion",{
-        url: "/retroalimentacion",
+        url: "/retroalimentacion/:id",
         templateUrl: "vistas/retroalimentacion.html",
         controller: 'PruebaController'
     }).state("registro",{

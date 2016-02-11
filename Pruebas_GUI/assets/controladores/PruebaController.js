@@ -42,7 +42,7 @@ app.controller('PruebaController', ['$scope', '$http', '$stateParams', '$locatio
         }).then(function correcto(respuesta) {
             console.log(respuesta);
             registrarCalificaciones(respuesta.data.id)
-            $location.path("/retroalimentacion");
+            $location.path("/retroalimentacion/"+respuesta.data.id);
         }, function error(respuesta) {
             console.log(respuesta);
         });
