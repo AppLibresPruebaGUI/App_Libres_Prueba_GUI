@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="row">
+        <div class="alert alert-success"><i class="fa fa-graduation-cap"></i>Pruebas</div>
+        <h1>Seleccion de Pruebas</h1>
+
+        <div ng-repeat="prueba in pruebas">
+            <div class="col-md-12">
+                <h2><i ></i>Lista de Pruebas</h2>
+                <a href="#/prueba/{{prueba.id}}">{{prueba.nombre}}</a>
+                <br/>
+                <br/>
+            </div>
+        </div>
+    </div>
+</div>

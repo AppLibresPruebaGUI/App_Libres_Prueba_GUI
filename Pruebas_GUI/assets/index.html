@@ -2,9 +2,8 @@
 <html>
 
 <head>
-
     <link href="libs/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 </head>
 
@@ -13,32 +12,40 @@
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
-                
+
             </div>
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    
+                    <li><a href="#/">Home</a></li>
+                    <li><a href="#/registro">Registro</a></li>
                 </ul>
 
             </div>
 
     </nav>
 
-    <div ui-view class="container-fluid">
+    <div ui-view>
 
 
     </div>
 
 
     <script src="libs/angular/angular.js"></script>
+    <script src="https://npmcdn.com/angular-toastr/dist/angular-toastr.tpls.js"></script>
+    <link rel="stylesheet" href="https://npmcdn.com/angular-toastr/dist/angular-toastr.css" />
+
     <script src="libs/uirouter/angular-ui-router.js"></script>
     <script src="libs/uiresource/angular-resource.js"></script>
     <script src="app.js"></script>
     <script src="libs/jquery/jquery-2.1.4.min.js"></script>
     <script src="libs/bootstrap/js/bootstrap.min.js"></script>
-     <!--Controladores-->
-<script src="controladores/RetroalimentacionController.js"></script>
+
+    <script src="controladores/EleccionController.js"></script>
+    <script src="controladores/PruebaController.js"></script>
+    <script src="controladores/LoginController.js"></script>
+    <script src="controladores/RegistroController.js"></script>
+     <script src="controladores/RetroalimentacionController.js"></script>
 
 </body>
 

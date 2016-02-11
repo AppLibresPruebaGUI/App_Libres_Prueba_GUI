@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="row" ng-model="prueba">
+        <div class="alert alert-info"><i class="fa fa-file"></i> Diseño de la Prueba</div>
+        <div class="container">
+            <label for="preguntaVoF"><i class="fa fa-check-circle"></i> Pregunta de Opción Multiple:</label>
+            <br>
+            <div ng-repeat="pregunta in prueba.preguntasColeccion">
+                <label>{{$index+1}} &nbsp; {{pregunta.enunciado}} </label>
+                <div class="form-vertical">
+                <input type="radio" ng-model="color.name" value="{{pregunta.opcion1}}">{{pregunta.opcion1}}
+                       <br/>
+                 <input type="radio" ng-model="color.name" value="{{pregunta.opcion3}}">{{pregunta.opcion2}}
+                       <br/>
+                 <input type="radio" ng-model=" color.name" value="{{pregunta.opcion2}}">{{pregunta.opcion3}}
+                </div>
+            </div>
+            <br/>
+            <a class="btn btn-success pull-center" href="#/retroalimentacion">Finalizar</a>
+        </div>
+    </div>
+
+
+</div>
+</div>

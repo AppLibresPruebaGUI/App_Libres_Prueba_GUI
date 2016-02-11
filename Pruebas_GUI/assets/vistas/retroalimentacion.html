@@ -4,22 +4,35 @@
   <h1>Retroalimentación de la prueba</h1>
   <div class="col-md-12">
    <h2><i class="fa fa-user"></i> Datos Estudiante</h2>
-   <p><strong>Nombre:</strong> Oscar</p>
-   <p><strong>Apellido:</strong> Loor</p>
-   <p><strong>Correo:</strong> dwquito@hotmail.com</p>
+   <p><strong>Nombre:</strong> {{datosUsuario.nombre}}</p>
+   <p><strong>Apellido:</strong> {{datosUsuario.apellido}}</p>
+   <p><strong>Correo:</strong> {{datosUsuario.correo}}</p>
   </div>
 
   <div class="col-md-12">
-   <h2><i class="fa fa-file-text"></i> Datos Prueba</h2>
-   <h3 style="color:red;"><i class="fa fa-check-square"></i> Calificación final: 13/20</h3>
-   <p><strong>Hora de Inicio del Intento:</strong> 2016-01-20-14:00</p>
-   <p><strong>Hora de Finalización del Intento:</strong> 2016-01-20-14:30</p>
-   <p><strong>Tiempo transcurrido:</strong> 30 minutos</p>
-   <p><strong>Número de Intentos Realizados:</strong> 2</p>
-   <p><strong>Número de Intentos Restantes:</strong> 0</p>
-
+   <h2><i class="fa fa-file-text"></i> Datos de realización de la Prueba</h2>
+   <h3 style="color:red;"><i class="fa fa-check-square"></i> Calificación final: {{datosPruebaTomada.calificacion}}/20</h3>
+   <p><strong>Hora de Inicio del Intento:</strong> {{datosPruebaTomada.horaEmpiezaIntento}}</p>
+   <p><strong>Hora de Finalización del Intento:</strong> {{datosPruebaTomada.horaTerminaIntento}}</p>
+   <p><strong>Tiempo transcurrido:</strong> {{datosPruebaTomada.tiempoTomado}} minutos</p>
+   <p><strong>Número de Intentos Realizados:</strong> {{datosPruebaTomada.numeroIntentosTomados}}</p>
+   <p><strong>Número de Intentos Restantes:</strong> {{datosPrueba.numeroIntentos-datosPruebaTomada.numeroIntentosTomados}}</p>
+  </div>
+  
+    <div class="col-md-12">
+   <h2><i class="fa fa-file-text"></i> Datos de la Prueba</h2>
+   <p><strong>Nombre:</strong> {{datosPrueba.nombre}}</p>
+     <p><strong>Materia:</strong> {{datosPrueba.materia}}</p>
+     <p><strong>Organización:</strong> {{datosPrueba.organizacion}}</p>
+     <p><strong>Hora de Inicio de la prueba:</strong> {{datosPrueba.horaInicio}}</p>
+   <p><strong>Hora de Finalización de la prueba:</strong> {{datosPrueba.horaFin}}</p>
+   <p><strong>Tiempo máximo de la prueba:</strong> {{datosPrueba.tiempo}} minutos</p>
+   <p><strong>Número de Intentos Máximos:</strong> {{datosPrueba.numeroIntentos}}</p>
    
   </div>
+  
+<!--
+  
   <div class="col-md-12">
    <h2><i class="fa fa-list"></i> Revisión de Preguntas</h2>
    <div>
@@ -57,5 +70,6 @@
     </table>
    </div>
   </div>
+-->
  </div>
 </div>

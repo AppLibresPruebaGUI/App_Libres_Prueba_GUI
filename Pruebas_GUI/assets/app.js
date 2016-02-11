@@ -1,13 +1,30 @@
-var app = angular.module('Pruebas',['ui.router','ngResource']);
+var app = angular.module('Pruebas',['ui.router','ngResource','toastr']);
 
 app.config(function($stateProvider,$urlRouterProvider){
-    //SI LA URL QUE INGRESA EL USUARIO NO EXISTE SE REDIRIGE AQUI:
- $urlRouterProvider.otherwise("/retroalimentacion"); 
-$stateProvider
-  .state('retroalimentacion', {
-   url: "/retroalimentacion",
-   templateUrl: "vistas/retroalimentacion.html",
-   controller: 'RetroalimentacionController'
-  });
- 
+    
+     $urlRouterProvider.otherwise("/");
+    
+    $stateProvider.state("home",{
+        url: "/",
+        templateUrl: "vistas/login.html",
+        controller: 'LoginController'
+    }).state("eleccion",{
+        url: "/eleccion",
+        templateUrl: "vistas/eleccion.html",
+        controller: 'EleccionController'
+    }).state("prueba",{
+        url: "/prueba/:id",
+        templateUrl: "vistas/prueba.html",
+        controller: 'PruebaController'
+    }).state("retroalimentacion",{
+        url: "/retroalimentacion",
+        templateUrl: "vistas/retroalimentacion.html",
+        controller: 'RetroalimentacionController'
+    }).state("registro",{
+        url: "/registro",
+        templateUrl: "vistas/registro.html",
+        controller: 'RegistroController'
+    })
+    
+
 });
