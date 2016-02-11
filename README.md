@@ -43,7 +43,7 @@ http://applibrespruebagui.github.io/App_Libres_Prueba_GUI/
 * [Carlos Sampedro](https://github.com/CarlosEd91)
 
 
-#HERRAMIENTA PARA REALIZAR VOTACIONES
+#Herramienta para realizar votaciones
 ##Herramienta a utilizar es DOODLE
 Doodle es una herramienta muy sencilla de utilizar que nos porporciona el servicio de realizar encuestas, votaciones, reuniones via online. Además, mejora la organización en todos los sentidos, tanto en eficiencia como en rapidez y concreción. 
 
