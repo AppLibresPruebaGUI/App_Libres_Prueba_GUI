@@ -11,10 +11,10 @@ module.exports = {
   tableName: 'pruebatomada',
   attributes: {
     horaEmpiezaIntento: {
-      type: 'integer'
+      type: 'datetime'
     },
     horaTerminaIntento: {
-      type: 'integer'
+      type: 'datetime'
     },
     numeroIntentosTomados: {
       type: 'integer'
@@ -24,9 +24,6 @@ module.exports = {
     },
     tiempoTomado: {
       type: 'integer'
-    },
-    fechaTomo: {
-      type: 'date'
     },
     calificacionColeccion: {
       collection: 'Calificacion',

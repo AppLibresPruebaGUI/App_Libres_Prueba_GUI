@@ -13,14 +13,11 @@ module.exports = {
     nombre: {
       type: 'string'
     },
-    fechaDebeTomarse: {
-      type: 'date'
-    },
     horaInicio: {
-      type: 'integer'
+      type: 'datetime'
     },
     horaFin: {
-      type: 'integer'
+      type: 'datetime'
     },
     tiempo: {
       type: 'integer'
