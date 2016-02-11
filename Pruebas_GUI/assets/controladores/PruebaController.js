@@ -6,7 +6,7 @@ app.controller('PruebaController', ['$scope', '$http', '$stateParams', '$locatio
 
     var puntajes = [];
 
-    var horaInicio = new Date().getHours();
+    var horaInicio = new Date();
     var minInicio = new Date().getMinutes();
 
     console.log(horaInicio);
@@ -32,12 +32,12 @@ app.controller('PruebaController', ['$scope', '$http', '$stateParams', '$locatio
             url: 'http://localhost:1337/PruebaTomada',
             data: {
                 horaEmpiezaIntento: horaInicio,
-                horaTerminaIntento: new Date().getHours(),
+                horaTerminaIntento: new Date(),
                 numeroIntentosTomados: 1,
                 calificacion: calificacion,
                 tiempoTomado: new Date().getMinutes() - minInicio,
                 fechaTomo: new Date(),
-                idPruebaTomadaUsuario: 1,
+                idPruebaTomadaUsuario: 1,//Verificar si esto no hace que se guarde siempre con el ID 1
                 idPruebaTomadaPruebas: idPrueba
             }
         }).then(function correcto(respuesta) {
