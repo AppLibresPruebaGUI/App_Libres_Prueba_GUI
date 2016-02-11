@@ -2,6 +2,8 @@ app.controller('PruebaController', ['$scope', '$http', '$stateParams', function 
 
     console.log('Entraste a Prueba');
 
+    $scope.respuestas;
+    
     var idPrueba = $stateParams.id;
     console.log(idPrueba);
     $scope.prueba;

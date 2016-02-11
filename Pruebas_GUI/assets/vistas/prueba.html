@@ -5,13 +5,13 @@
             <label for="preguntaVoF"><i class="fa fa-check-circle"></i> Pregunta de Opción Multiple:</label>
             <br>
             <div ng-repeat="pregunta in prueba.preguntasColeccion">
-                <label>{{index + pregunta.enunciado}} </label>
+                <label>{{$index+1}} &nbsp; {{pregunta.enunciado}} </label>
                 <div class="form-vertical">
-                <input type="radio" ng-model="color.name" value="1">{{pregunta.opcion1}}
+                <input type="radio" ng-model="color.name" value="{{pregunta.opcion1}}">{{pregunta.opcion1}}
                        <br/>
-                 <input type="radio" ng-model="color.name" value="2">{{pregunta.opcion2}}
+                 <input type="radio" ng-model="color.name" value="{{pregunta.opcion3}}">{{pregunta.opcion2}}
                        <br/>
-                 <input type="radio" ng-model="color.name" value="3">{{pregunta.opcion3}}
+                 <input type="radio" ng-model=" color.name" value="{{pregunta.opcion2}}">{{pregunta.opcion3}}
                 </div>
             </div>
             <br/>
