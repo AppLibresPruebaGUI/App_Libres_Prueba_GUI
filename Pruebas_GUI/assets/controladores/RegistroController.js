@@ -1,4 +1,4 @@
-app.controller('RegistroController', ['$scope', '$http', function ($scope, $http) {
+app.controller('RegistroController', ['$scope', '$http','$location', function ($scope, $http,$location) {
 
     console.log('Entraste a Registro');
 
@@ -36,13 +36,15 @@ app.controller('RegistroController', ['$scope', '$http', function ($scope, $http
             $scope.usuario.apellido = '';
             $scope.usuario.correo = '';
             $scope.usuario.password = '';
+            
+            $location.path("/login");
 
         }, function error(respuesta) {
             console.log(respuesta);
         });
     };
 
-    //Nota: el código de la ruta registro.html no debe ser alterado 
+    
 
 
 }]);
