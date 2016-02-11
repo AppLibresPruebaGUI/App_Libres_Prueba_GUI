@@ -1,4 +1,4 @@
-app.controller('LoginController', ['$scope','$http', '$location','toastr', function ($scope,$http,$location,toastr) {
+app.controller('LoginController', ['$scope','$http', '$location','toastr','parametrosRetroalimentacionFactory', function ($scope,$http,$location,toastr,parametrosRetroalimentacionFactory) {
 
     console.log('Entraste a Login');
     
@@ -21,6 +21,7 @@ app.controller('LoginController', ['$scope','$http', '$location','toastr', funct
                     toastr.warning('Error', 'El usuario no esta registrado')
                 }
                 else{
+  parametrosRetroalimentacionFactory.actualizarIDUsuario(respuesta.data[0].id);
                     $location.path("/eleccion");
                     toastr.success(':)', 'Bienvenido loco')
                 }

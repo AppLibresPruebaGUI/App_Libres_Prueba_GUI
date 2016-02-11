@@ -1,4 +1,4 @@
-app.controller('PruebaController', ['$scope', '$http', '$stateParams', '$location', function ($scope, $http, $stateParams,$location) {
+app.controller('PruebaController', ['$scope', '$http', '$stateParams', '$location','parametrosRetroalimentacionFactory', function ($scope, $http, $stateParams,$location,parametrosRetroalimentacionFactory) {
 
     console.log('Entraste a Prueba');
 
@@ -12,6 +12,7 @@ app.controller('PruebaController', ['$scope', '$http', '$stateParams', '$locatio
     console.log(horaInicio);
 
     var idPrueba = $stateParams.id;
+    parametrosRetroalimentacionFactory.actualizarIDPrueba(idPrueba);
     console.log(idPrueba);
 
     $scope.prueba;
@@ -42,7 +43,9 @@ app.controller('PruebaController', ['$scope', '$http', '$stateParams', '$locatio
         }).then(function correcto(respuesta) {
             console.log(respuesta);
             registrarCalificaciones(respuesta.data.id)
-            $location.path("/retroalimentacion/"+respuesta.data.id);
+            //$location.path("/retroalimentacion"+respuesta.data.id);
+            parametrosRetroalimentacionFactory.actualizarIDPruebaTomada(respuesta.data.id);
+            $location.path("/retroalimentacion");
         }, function error(respuesta) {
             console.log(respuesta);
         });

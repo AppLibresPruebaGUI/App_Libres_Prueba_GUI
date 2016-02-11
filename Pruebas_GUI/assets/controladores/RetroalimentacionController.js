@@ -1,15 +1,15 @@
-app.controller('RetroalimentacionController', ['$scope', 'toastr', '$http', function ($scope, toastr, $http) {
+app.controller('RetroalimentacionController', ['$scope', 'toastr', '$http','parametrosRetroalimentacionFactory', function ($scope, toastr, $http,parametrosRetroalimentacionFactory) {
 
- var idUsuario = 1; //ID del estudiante
- var idPruebaTomada = 2; //ID de la prueba tomada
- var idPrueba =3; //ID de la prueba realizada por el profesor
+ var idUsuario = parametrosRetroalimentacionFactory.obtenerParametros().idUsuario; //ID del estudiante
+ var idPruebaTomada = parametrosRetroalimentacionFactory.obtenerParametros().idPruebaTomada; //ID de la prueba tomada
+ var idPrueba =parametrosRetroalimentacionFactory.obtenerParametros().idPrueba; //ID de la prueba realizada por el profesor
 
   /*Obtengo el usuario*/
   $http({
    method: 'GET',
    url: 'http://localhost:1337/Usuarios/' + idUsuario
   }).then(function correcto(success) {
-   //console.log(success.data);
+   console.log(success.data);
    var datosRecibidos = success.data;
 $scope.datosUsuario = {
  nombre: datosRecibidos.nombre,
@@ -30,7 +30,7 @@ $scope.datosUsuario = {
    method: 'GET',
    url: 'http://localhost:1337/PruebaTomada/' + idPruebaTomada
   }).then(function correcto(success) {
-   //console.log(success.data);
+   console.log(success.data);
    var datosRecibidos = success.data;
 $scope.datosPruebaTomada = {
  calificacion: datosRecibidos.calificacion,
@@ -55,7 +55,7 @@ $scope.datosPruebaTomada = {
    method: 'GET',
    url: 'http://localhost:1337/Pruebas/' + idPrueba
   }).then(function correcto(success) {
-   //console.log(success.data);
+   console.log(success.data);
    var datosRecibidos = success.data;
 $scope.datosPrueba = {
  nombre: datosRecibidos.nombre,
